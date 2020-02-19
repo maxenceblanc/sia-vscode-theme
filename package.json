@@ -1,0 +1,22 @@
+{
+    "name": "sia-synthwave",
+    "displayName": "sia-synthwave",
+    "description": "Personal synthwave theme, hopefully with no green.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sia synthwave colour theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Sia synthwave colour theme-color-theme.json"
+            }
+        ]
+    },
+    "publisher": "maxenceblanc"
+}
