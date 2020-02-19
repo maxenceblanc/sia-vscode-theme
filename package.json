@@ -18,5 +18,10 @@
             }
         ]
     },
-    "publisher": "maxenceblanc"
+    "publisher": "maxenceblanc",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/maxenceblanc/sia-vscode-theme.git"
+      }
+      
 }
