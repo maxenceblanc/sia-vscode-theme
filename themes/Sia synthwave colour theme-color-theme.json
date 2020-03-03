@@ -2,34 +2,60 @@
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
 	"colors": {
-		"activityBar.activeBackground": "#b141f133",
-		"activityBar.activeBorder": "#b141f1",
-		"activityBar.background": "#130d1a",
-		"activityBar.border": "#2a2139",
-		"activityBar.dropBackground": "#49549565",
-		"activityBar.foreground": "#ffffff",
-		"activityBar.inactiveForeground": "#ffffff77",
-		"activityBarBadge.background": "#b141f1",
-		"activityBarBadge.foreground": "#2a2139",
-		"badge.background": "#b141f1",
-		"badge.foreground": "#2a2139",
-		"breadcrumb.activeSelectionForeground": "#ffffff",
-		"breadcrumb.background": "#130d1a",
-		"breadcrumb.focusForeground": "#b141f1",
-		"breadcrumb.foreground": "#ffffff99",
+
+		// pink 1: ff0edf
+		// purple 1: b141f1
+		// dark 1: 100b16
+		// dark 2: 1a1224
+		// dark 3: 241931
+		// cyan 1: 00f7ff
+		// cyan 2: 26c6cc
+		// grey 1: ffffffb9
+		// grey 2: ffffff77
+
+		// Left sidebar
+		"activityBar.activeBackground": "#a200ff33", // Active square bg
+		"activityBar.activeBorder": "#b141f1", // Active square left border
+		"activityBar.background": "#100b16", // Bg
+		"activityBar.foreground": "#ff0edf", // Active icon fg
+		"activityBar.inactiveForeground": "#ffffff77", // Inactive icons fg
+		"activityBar.border": "#2a2139", // Rightborder line
+		"activityBar.dropBackground": "#49549565", // Drag and drop icons
+		"activityBarBadge.background": "#ffffff00", // Notif badge bg
+		"activityBarBadge.foreground": "#00f7ff", // Notif badge fg
+		
+		// Notifications on searches
+		"badge.background": "#ffffff00",
+		"badge.foreground": "#00f7ff",
+		
+		// file path editor
+		"breadcrumb.activeSelectionForeground": "#00f7ff", 
+		"breadcrumb.background": "#000000",
+		"breadcrumb.focusForeground": "#26c6cc",
+		"breadcrumb.foreground": "#ffffffb9",
 		"breadcrumbPicker.background": "#130d1a",
-		"button.background": "#b141f121",
-		"button.foreground": "#ffffff",
-		"button.hoverBackground": "#495495",
-		"debugExceptionWidget.background": "#130d1a",
-		"debugExceptionWidget.border": "#ffffff",
-		"debugToolBar.background": "#130d1a",
-		"descriptionForeground": "#495495",
+		
+		// Buttons
+		"button.background": "#1a1224",
+		"button.foreground": "#b141f1",
+		"button.hoverBackground": "#241931",
+		
+		// TODO
+		"debugExceptionWidget.background": "#15ff00",//"#0e1a0d",
+		"debugExceptionWidget.border": "#15ff00",//"#ffffff",
+		"debugToolBar.background": "#130d1a", // options during debug (next, stop, etc.)
+
+		// Description and subtitles on the welcome page (at least?)
+		"descriptionForeground": "#5d6cbe",//"#495495",
+
+		// Diff checker
 		"diffEditor.insertedTextBackground": "#ff00d425",
 		"diffEditor.removedTextBackground": "#b141f116",
-		"dropdown.background": "#130d1a",
+		
+		"dropdown.background": "#131a0d",
 		"dropdown.border": "#130d1a",
 		"dropdown.foreground": "#495495",
+		
 		"editor.background": "#130d1a",
 		"editor.findMatchBackground": "#34294f",
 		"editor.findMatchHighlightBackground": "#34294f88",
